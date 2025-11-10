@@ -40,7 +40,7 @@ basic.forever(function on_forever() {
         
         basic.clearScreen()
         led.plot(x, y)
-        basic.pause(100)
+        basic.pause(50)
     }
     
 })

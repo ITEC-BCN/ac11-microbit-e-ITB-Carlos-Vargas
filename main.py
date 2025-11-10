@@ -45,7 +45,7 @@ def on_forever():
             y = y + 1
         basic.clear_screen()
         led.plot(x, y)
-        basic.pause(100)
+        basic.pause(50)
 
         
 
