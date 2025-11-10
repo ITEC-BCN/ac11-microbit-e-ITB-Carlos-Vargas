@@ -1,24 +1,18 @@
+# Acciones de botones
+---
+## Boton A 
 
-> Obre aquesta pàgina a [https://raimonizard.github.io/microbit-template-repo-python/](https://raimonizard.github.io/microbit-template-repo-python/)
+Hace que se muestre una grafica con la temperactura actual que detecte el Microbit
 
-## Utilitza-ho com a extensió
+| Frio  | calor | 
+|:------:|:------:|
+| <img src="./img/baja.png"> | <img src="./img/alta.png"> | 
 
-Aquest dipòsit es pot afegir com una **extensió** a MakeCode.
 
-* obre [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* fes clic a **Projecte nou**
-* fes clic a **Extensions** sota el menú de la roda dentada
-* cercar **https://github.com/raimonizard/microbit-template-repo-python** i importar
+## Boton B 
 
-## Edita aquest projecte
+Al oprimir el botón B, se iniciará una simulación de una gota por las luces LED, es decir, según la inclinación del micro:bit, se encenderá un determinado LED al mismo tiempo que se apaga el anterior, simulando un movimiento.
 
-Per editar aquest repositori a MakeCode.
-
-* obre [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* fes clic a ** Importa** i després a ** Importa URL**
-* enganxa **https://github.com/raimonizard/microbit-template-repo-python** i clica importar
-
-#### Metadades (utilitzades per a la cerca, renderització)
-
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+| Movimiento A  | Movimineto B | 
+|:------:|:------:|
+| <img src="./img/posicion1.png"> | <img src="./img/posicion2.png"> | 
